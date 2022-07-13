@@ -4,7 +4,7 @@
 	"description": "Basic storage management for React applications using localStorage & hooks.",
 	"repository": "aytacmalkoc/react-use-storage",
 	"license": "MIT",
-	"main": "dist/index.cjs.js",
+	"main": "dist/index.js",
 	"scripts": {
 		"build": "rollup -c",
 		"publish": "npm run build && npm publish --access public"
