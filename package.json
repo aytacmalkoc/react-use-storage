@@ -1,0 +1,34 @@
+{
+	"name": "@aytacmalkoc/react-use-storage",
+	"version": "1.0.0",
+	"description": "Basic storage management for React applications using localStorage & hooks.",
+	"repository": "aytacmalkoc/react-use-storage",
+	"license": "MIT",
+	"main": "dist/index.cjs.js",
+	"scripts": {
+		"build": "rollup -c",
+		"publish": "npm run build && npm publish --access public"
+	},
+	"keywords": [
+		"react",
+		"use-storage",
+		"react hooks",
+		"react-cache"
+	],
+	"author": {
+		"name": "Aytac Malkoc",
+		"email": "aytacmalkoc@protonmail.com",
+		"url": "https://www.aytacmalkoc.com.tr"
+	},
+	"peerDependencies": {
+		"react": ">=16.8.0"
+	},
+	"devDependencies": {
+		"@rollup/plugin-typescript": "^8.3.3",
+		"react": "^18.2.0",
+		"rollup": "^2.46.0"
+	},
+	"dependencies": {
+		"crypto-js": "^4.1.1"
+	}
+}
