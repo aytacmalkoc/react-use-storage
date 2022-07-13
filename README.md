@@ -27,7 +27,7 @@ const [posts, setPosts] = useState([]);
 const [storage, setStorage] = useStorage('posts');
 
 useEffect(() => {
-    if (storage.length > 0) {
+    if (storage) {
         setPosts(storage);
     } else {
         // fetch data from server
