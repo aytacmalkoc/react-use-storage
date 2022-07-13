@@ -7,7 +7,8 @@ const useStorage = (key: string, encrypt: boolean = false) => {
 
 		if (json) {
 			if (encrypt) {
-				return CryptoJS.AES.decrypt(json, key).toString(CryptoJS.enc.Utf8);
+				const encrypted = CryptoJS.AES.decrypt(json, key).toString(CryptoJS.enc.Utf8);
+				return JSON.parse(encrypted);
 			}
 			return JSON.parse(json);
 		}
