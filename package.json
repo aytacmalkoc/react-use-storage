@@ -1,6 +1,6 @@
 {
 	"name": "@aytacmalkoc/react-use-storage",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Basic storage management for React applications using localStorage & hooks.",
 	"repository": "aytacmalkoc/react-use-storage",
 	"license": "MIT",
